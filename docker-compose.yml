@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_URL: sqlite:////app/runtime/polylingo.db
+      ADAPTER_PATH: /app/models/polyligo_nllb_lora/best_adapter
+      HF_CACHE: /app/cache
+    volumes:
+      - ./models:/app/models:ro
+      - ./data/hf_cache/hub:/app/cache
+      - app-data:/app/runtime
+    restart: unless-stopped
+    # For NVIDIA container toolkit, optionally add: gpus: all
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  app-data:
+

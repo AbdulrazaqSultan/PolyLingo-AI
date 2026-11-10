@@ -1,0 +1,28 @@
+{
+  "name": "polylingo-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.475.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "4.7.0",
+    "prettier": "https://registry.npmjs.org/prettier/-/prettier-3.6.2.tgz",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.7.3",
+    "vite": "6.3.5",
+    "esbuild": "0.25.12"
+  }
+}

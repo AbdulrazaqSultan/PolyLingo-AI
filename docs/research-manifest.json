@@ -1,0 +1,23 @@
+{
+  "helper.py": "50f67e9ff09efd3dc7f38faf3cf112e7d0e3b7504dc984ea61bda2bce665a2cf",
+  "PolyLingo_AI.ipynb": "92d5ad9163e65da21d22a107a9231ed7ae95ada4d2071986f1251d65547e7fee",
+  "models/polyligo_nllb_lora/best_adapter/adapter_config.json": "a1a98d79487c47b9a5c3d8a89fc6d75f556b084fb454d5e1f3d39d63d2fb2696",
+  "models/polyligo_nllb_lora/best_adapter/adapter_model.safetensors": "5b7d97e8951db438141c91d13476fe419deb4f05b4953d8300116a6183d6829b",
+  "models/polyligo_nllb_lora/best_adapter/README.md": "912e3ae6987ac6947e4bd4ef0bb6411b4aef6c8f4f945964ac6163f33d420b0f",
+  "models/polyligo_nllb_lora/best_adapter/tokenizer.json": "10b28c3495062392ff134cc19e8943b3fcbef3a876de5c01efddcbb3ba77fd12",
+  "models/polyligo_nllb_lora/best_adapter/tokenizer_config.json": "3ae0cc2eae7ea9d01c09397b6e3634d29eee5e351d476cfd9d930f19be888a6c",
+  "models/polyligo_nllb_lora/last_adapter/adapter_config.json": "a1a98d79487c47b9a5c3d8a89fc6d75f556b084fb454d5e1f3d39d63d2fb2696",
+  "models/polyligo_nllb_lora/last_adapter/adapter_model.safetensors": "5b7d97e8951db438141c91d13476fe419deb4f05b4953d8300116a6183d6829b",
+  "models/polyligo_nllb_lora/last_adapter/README.md": "912e3ae6987ac6947e4bd4ef0bb6411b4aef6c8f4f945964ac6163f33d420b0f",
+  "models/polyligo_nllb_lora/last_adapter/tokenizer.json": "10b28c3495062392ff134cc19e8943b3fcbef3a876de5c01efddcbb3ba77fd12",
+  "models/polyligo_nllb_lora/last_adapter/tokenizer_config.json": "3ae0cc2eae7ea9d01c09397b6e3634d29eee5e351d476cfd9d930f19be888a6c",
+  "results/baseline_validation_metrics.csv": "9cdeaa68920a270bf8892500b17a403ea345eb760d3ca95961268cbb5925b74b",
+  "results/before_after_comparison.csv": "2261e50358a986717da192d8bb77c2c65f65bdc8e414a023b1562ffb4e13c060",
+  "results/final_test_metrics.csv": "060ce23617dcf6f707dcf0f4559b867cd33780a3b0080c8fb9defe424d41887e",
+  "results/final_test_predictions.parquet": "9d218e81baa2836e0e5e19e96eeb4a3302c77eeb6fe957a30e5b655a4b72a840",
+  "results/finetuned_validation_metrics.csv": "a7d0e3ee65e0f176b55f1317ce54421179394118a839478e5d7bc30756ad00ff",
+  "results/training_validation_loss.png": "a8ae4099b09d95bd9d82cf0d14580036d45493c7bd4da15ab009ce5a93ef6402",
+  "data/processed/translation_test.parquet": "908353b17684ccdd5c12bb01b7c7e47838fe15789cebf36239386aef701b3d90",
+  "data/processed/translation_train.parquet": "afc75a527010357f7080df33b5913c269a8ee72acb56b2d7f92076825dee8743",
+  "data/processed/translation_val.parquet": "ce268efb8baf9dc5b09afd6008827b60a4a679689e0afe50f97a48cacde3b208"
+}

@@ -1,0 +1,61 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Hugging Face / datasets / caches
+data/hf_cache/
+data/raw/
+data/downloads/
+data/processed/
+.cache/
+huggingface/
+.huggingface/
+
+# Trained model weights stay local; distribute separately when licensed.
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.bin
+*.arrow
+
+# Runtime
+runtime/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+anaconda_projects/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

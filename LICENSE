@@ -1,0 +1,6 @@
+Licensing notice
+
+No license grant for the original research or newly added application code has been selected by the repository owner. All rights are reserved unless the owner supplies applicable terms. This notice does not relicense any third-party assets.
+
+The NLLB-200-distilled-600M base model is distributed by Meta under CC-BY-NC-4.0; consult its model card and license at https://huggingface.co/facebook/nllb-200-distilled-600M. Adapter and dataset distribution must respect upstream terms. Third-party dependencies retain their respective licenses.
+
