@@ -165,9 +165,21 @@ Do not commit `.env`, model weights, cached datasets, or runtime databases. Keep
 - [Contributing](CONTRIBUTING.md)
 - [Changelog](CHANGELOG.md)
 
-## Screenshots
+## Demo and screenshots · العرض والصور
 
-Capture the desktop translator, mobile microphone view, and admin overview after running the app. Screenshot assets are not supplied yet.
+تجربة فعلية للتسجيل والترجمة الصوتية، مع واجهة عربية وإنجليزية. استُخدم صوت اصطناعي تجريبي محايد لحماية الخصوصية؛ التعرف على الكلام والترجمة وتوليد الصوت نُفذت بالخدمات الفعلية.
+
+Real application capture: record a neutral synthetic greeting, recognize it with Whisper, translate with NLLB + LoRA, play the translated speech, inspect local history, and switch to Arabic. Processing time is preserved. The GIF is silent; [download the MP4 with audio](docs/media/interpreter-demo.mp4).
+
+![Actual bilingual voice translation demo](docs/media/interpreter-demo.gif)
+
+| English workspace | الواجهة العربية |
+| --- | --- |
+| ![English translator with real result](docs/media/translator-en.png) | ![Arabic translator with real result](docs/media/translator-ar.png) |
+
+[Arabic homepage](docs/media/home-ar.png) · [English homepage](docs/media/home-en.png) · [Mobile voice workspace](docs/media/mobile-voice-ar.png) · [Protected admin sign-in](docs/media/admin-signin-ar.png)
+
+See [capture details and reproducible checks](docs/demo.md). The admin image shows the sign-in screen; no credentials or private dashboard data appear.
 
 ## Future work
 

@@ -346,6 +346,8 @@ svg {
   height: 340px;
   position: relative;
   isolation: isolate;
+  /* Rotated decorative orbits must not widen the mobile RTL viewport. */
+  overflow: clip;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1451,6 +1453,10 @@ td:last-child .text-link {
   }
 }
 @media (max-width: 1300px) {
+  .hero:before {
+    /* Keep the decorative glow inside tablet and phone viewports. */
+    inset-inline: 0;
+  }
   .topbar,
   .public-app main,
   .public-app footer {

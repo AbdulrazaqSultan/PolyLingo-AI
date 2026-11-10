@@ -41,7 +41,7 @@ The saved tokenizer uses Transformers 5's list-shaped extra_special_tokens metad
 
 ## Remaining acceptance checks
 
-- No browser automation runtime was available for visual screenshots or interactive UI verification. Verify desktop/mobile layouts, keyboard interaction, microphone permission denial, recording waveform, playback, and Arabic editing in a browser.
+- Headless Chrome verification now covers real browser recording with a synthetic microphone fixture, automatic translation, playback, history, locale switching, and ten Arabic/English viewport checks. Real screenshots and a recording are available in [the demo report](demo.md). Physical microphone devices, permission denial, keyboard-only interaction, and Arabic editing still need interactive acceptance checks.
 - Real Whisper transcription is now verified with English and Arabic sample audio. Physical microphone capture still needs an interactive browser check. The larger small checkpoint remains incomplete and is not the active STT model.
 - This Python installation reports PyTorch 2.8 CPU and CUDA unavailable. GPU inference and VRAM limits need validation in the intended CUDA environment.
 - Docker configuration is supplied but no container build or cloud deployment was performed.
